@@ -1,0 +1,211 @@
+/*Google Fonts:*/
+
+/*font-family: 'Arvo', serif; - Header - Bold, sub headers Bold 700 Italic
+font-family: 'Sanchez', serif; - body text - sanchez normal, italic */
+
+body, header, footer, ul, li, div, section, p, h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  border: 0;
+  padding: 0;
+
+  font-family: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Arvo", serif;
+  font-weight: normal;
+}
+
+h1 {
+  font-size: 32px;
+}
+
+h2 {
+  color: #4a4845;
+  font-family: "Arvo", serif;
+  font-size: 28px;
+}
+
+h3 {
+
+  font-family: "Arvo", serif;
+  font-style: italic;
+  font-size: 24px;
+  color: #746c63;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: #fdf4ed;
+}
+
+ul {
+  list-style: none;
+}
+
+p {
+  font-family: "Sanchez", serif;
+}
+
+li {
+  text-decoration: none;
+}
+
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.project {
+  padding: 0px 0 10 0;
+  margin-top: 36px;
+}
+
+.project-info {
+  width: 860px;
+  padding: 15px 0px;
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
+  margin: 5px 0 10px 0;
+}
+
+.project-copy {
+  display: block;
+  float: left;
+  width: 560px;
+}
+
+.project-images {
+  float: right;
+  width: 300px;
+  height: auto;
+}
+
+.project-nav {
+  width: 400px;
+  margin: auto;
+  text-align: justify;
+  -ms-text-justify: distribute-all-lines;
+  text-justify: distribute-all-lines;
+}
+
+.border {
+  overflow: hidden;
+}
+
+.nav1, .nav2, .nav3 {
+  width: 100px;
+  vertical-align: baseline;
+  display: inline-block;
+  *display: inline;
+  zoom: 1;
+}
+
+.stretch {
+  width: 100%;
+  display: inline-block;
+  font-size: 0;
+  line-height: 0;
+}
+
+
+
+img {
+  display: block;
+  float: left;
+  width: 300px;
+}
+em {
+  font-style: italic;
+}
+
+header, footer {
+  background: #746c63;
+  display: block;
+}
+
+header h1, header h2, header h3 {
+  color: white;
+}
+
+header nav {
+  float: right;
+}
+
+.border {
+  width: 100%;
+  height: 10px;
+  background-image: url("bluestripes.png");
+
+}
+.wrapper {
+  width: 860px;
+  margin: auto;
+}
+
+.content {
+  width: 860px;
+  padding: 20px;
+  margin: auto;
+}
+
+.content h2 {
+  text-transform: uppercase;
+}
+
+.content h3 {
+  display: block;
+  padding: 5px 0;
+}
+
+.content h4 {
+  display: block;
+  padding: 5px 0;
+  color: #746c63;
+}
+
+
+.info {
+  float: left;
+}
+
+nav li a {
+  display: block;
+  padding: 5px 8px;
+  color: white;
+  text-decoration: none;
+  opacity: 0.6;
+  font-family: "Sanchez", serif;
+}
+
+.project a {
+  font-family: "Sanchez", serif;
+  style: italic;
+}
+
+a:hover {
+  text-decoration: underline;
+  opacity: 1.0;
+
+}
+
+nav li {
+  float: left;
+}
+
+footer {
+  bottom: 0px;
+}
+
+
