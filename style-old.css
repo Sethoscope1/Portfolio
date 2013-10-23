@@ -18,30 +18,11 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: normal;
 }
 
-
-/*header {
-  height: 170px;
-  position: relative;
-}*/
-
-#header_nav {
-  width: 100%;
-  height: 170px;
-  position: fixed;
-}
-
-header h1, header h2 {
-  display: block;
-  padding: 5px 0;
-  text-align: center;
-}
-
-header h1 {
+h1 {
   font-size: 32px;
-
 }
 
-header h2 {
+h2 {
   color: #4a4845;
   font-family: "Arvo", serif;
   font-size: 28px;
@@ -72,7 +53,10 @@ li {
   text-decoration: none;
 }
 
-
+header {
+  height: 170px;
+  position: relative;
+}
 
 .wrapper {
 }
@@ -80,7 +64,7 @@ li {
 #top-nav {
   position: absolute;
   bottom: 0;
-  left: 780px ;
+  left: 800px ;
   padding: 10px 0;
 }
 
@@ -98,7 +82,10 @@ li {
   float: right;
 }
 
-
+header h1, header h2 {
+  display: block;
+  padding: 5px 0;
+}
 
 .info {
   padding: 10px 5px;
@@ -106,76 +93,22 @@ li {
 }
 
 .project {
+  padding: 0px 0 10 0;
   margin-top: 36px;
-  background-color: #FF0343;
-  padding: 5px;
-}
-
-/*  background-color: #4a4845; USE FOR PROJECT HEADER*/
-
-.project-header {
-  background-color: #4a4845;
-  padding: 10px;
-  margin: 20px 20px 0 20px;
-}
-
-
-.project-header h3 {
-  display: block;
-  padding: 5px;
-  color: blue;
-}
-
-.content h2 {
-  text-transform: uppercase;
-  color: #FF0343;
-  font-size: 170px;
-}
-
-.content h3 {
-  font-size: 36px;
-  display: block;
-  float: left;
-  padding: 5px 5px;
-  color: white;
-}
-
-.content p {
-  color: #1D1B4A;
-}
-/*#1D1B4A content p*/
-
-.content h4 {
-  display: block;
-  float: right;
-  max-width: 500px;
-  padding: 5px;
-  color: #a59f96;
-}
-
-.content a {
-  font-family: "Sanchez", serif;
-  style: italic;
-  color: white;
-/*  color: #1D1B4A;*/
 }
 
 .project-info {
-  width: 790px;
-  padding: 10px 10px;
-  background-color: white;
-
-/*  border-top: 1px dotted #4a4845;
-  border-bottom: 1px dotted #FF0343;*/
-
-  margin: 0 20px 20px 20px;
+  width: 860px;
+  padding: 15px 0px;
+  border-top: 1px dotted #FF0343;
+  border-bottom: 1px dotted #FF0343;
+  margin: 5px 0 10px 0;
 }
-
 
 .project-copy {
   display: block;
   float: left;
-  width: 480px;
+  width: 560px;
 }
 
 .project-images {
@@ -216,7 +149,7 @@ li {
 img {
   display: block;
   float: left;
-  width: 280px;
+  width: 300px;
 }
 em {
   font-style: italic;
@@ -246,7 +179,29 @@ header nav {
   margin: auto;
 }
 
+.content h2 {
+  text-transform: uppercase;
+  color: #FF0343;
+  font-size: 170px;
+}
 
+.content h3 {
+  display: block;
+  padding: 5px 0;
+  color: #1D1B4A;
+}
+
+.content h4 {
+  display: block;
+  padding: 5px 0;
+  color: #746c63;
+}
+
+.content a {
+  font-family: "Sanchez", serif;
+  style: italic;
+  color: #1D1B4A;
+}
 
 .info {
   float: left;
