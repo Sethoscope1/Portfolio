@@ -50,12 +50,13 @@ i {
 }
 
 #header_nav {
-    width: 100%;
-    height: 260px;
-    background-color:#272640;
-    position:fixed;
-    top:0;
-    left:0;
+  width: 100%;
+  height: 280px;
+  background-color:#272640;
+  position:fixed;
+  top:0;
+  left:0;
+  z-index: 2;
 }
 
 header h1, header h2 {
@@ -70,36 +71,41 @@ header h1, header h2 {
 }
 
 #hi {
-  position: relative;
+  position: fixed;
   -webkit-transition: all 0.5s ease-in-out;
   -moz-transition: all 0.5s ease-in-out;
   -o-transition: all 0.5s ease-in-out;
   -ms-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
+  left: 50%;
+  margin-left: -360px;
+  top: 100px;
+  z-index: 2000;
+}
+
+#hi .start {
+  visibility: hidden;
 }
 
 #hi i,
 #hi h2 {
-  position: absolute;
   font-size: 64px;
-  top: -1000px;
-  left: 100px;
 }
 
 #hi i {
+  position: absolute;
   font-size: 148px;
   color: #272640;
   margin-left: -176px;
-  left: 50%;
-  top: -10px;
+  top: -120px;
 }
 
 #hi h2 {
+  position: absolute;
   font-size: 64px;
   color: white;
-  left: 50%;
   margin-left: -150px;
-  top: 14px;
+  top: -88px;
 }
 
 #info {
@@ -107,7 +113,7 @@ header h1, header h2 {
   left: 50%;
   margin-left: -300px;
   width: 600px;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 }
 
 #info h1 {
@@ -360,12 +366,6 @@ header h1, header h2, header h3 {
 header nav {
   float: right;
 }
-
-
-
-
-
-
 
 .info {
   float: left;

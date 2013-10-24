@@ -7,11 +7,10 @@
     <link href='http://fonts.googleapis.com/css?family=Arvo:400,700,400italic|Sanchez:400italic,400' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="font-awesome-4.0.0/css/font-awesome.min.css">
     <script src="jquery-1.10.2.min.js"></script>
-    <title>Seth L Helfgott</title>
+    <title>Seth Helfgott</title>
   </head>
 
   <body>
-
       <header class="group" id="header_nav">
         <section class="header-wrapper group">
           <section id="info">
@@ -26,22 +25,25 @@
 
           <nav id="top-nav">
             <ul class="group">
-              <a>Portfolio</a>
+              <a href="#projects">Projects</a>
 
-              <a>About Me</a>
+              <a href="#profile">About Me</a>
 
-              <a>Contact</a>
+              <a href="#contact">Contact</a>
 
-              <a>tumblr, etc</a>
+              <a href="https://github.com/Sethoscope1">Github</a>
               <span class="stretch"></span>
             </ul>
           </nav>
-          <div id="hi" class="group">
-            <i class="fa fa-comment"></i>
-            <h2>HI!</h2>
-          </div>
+
         </section>
     </header>
+
+    <div id="hi" class="group">
+      <i class="fa fa-comment"></i>
+      <h2>HI!</h2>
+    </div>
+
 
     <section class="content">
       <h2 id="projects">Projects</h2>
@@ -134,14 +136,11 @@
 
 <script>
 $( document ).ready(function() {
-  console.log("here")
 
   $(function(){
     $('#header_nav').data('size','big');
   });
 
-  $('#hi h2').fadeIn("slow", "linear");
-  $('#hi i').fadeIn("slow", "linear");
 
   $(window).scroll(function(){
     if($(document).scrollTop() > 0)
@@ -153,8 +152,6 @@ $( document ).ready(function() {
           $('#header_nav').stop().animate({
               height:'50px'
           },600);
-          $('#hi h2').fadeIn("slow", "linear");
-          $('#hi i').fadeIn("slow", "linear");
       }
   }
   else
@@ -166,8 +163,8 @@ $( document ).ready(function() {
           $('#header_nav').stop().animate({
               height:'260px'
           },600);
-          $('#hi h2').fadeOut("slow", "linear");
-          $('#hi i').fadeOut("slow", "linear");
+          // $('#hi h2').fadeOut("slow", "linear");
+          // $('#hi i').fadeOut("slow", "linear");
         }
     }
   });
